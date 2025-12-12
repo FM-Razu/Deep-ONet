@@ -22,7 +22,6 @@ We first solve the deterministic $S_N$ transport problem using transport sweep a
 
 1. **Transport Solver**
    - Implements 1D discrete ordinates ($S_N$) method.
-   - Uses **diamond-difference scheme** for spatial discretization.
    - Vacuum boundaries at both ends of the slab.
    - Computes cell-averaged scalar flux:
      $\phi_j = \sum_n w_n \psi_{n,j}$
